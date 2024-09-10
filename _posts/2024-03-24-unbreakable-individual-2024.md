@@ -2,7 +2,7 @@
 title: Unbreakable Individual 2024
 date: 2024-03-24 12:00:00 -500
 categories: [CTF Writeups, Unbreakable]
-tags: [reverse,mobile,web,forsenics,steganography,osint,crypto]
+tags: [reverse,mobile,web,forsenics,stegano,osint,crypto]
 image: /assets/img/logos/logo-unbreakable.png
 ---
 
