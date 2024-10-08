@@ -167,6 +167,12 @@ kramdown:
       start_line: 1
 
 collections:
+  posts_math:
+    output: true
+    sort_by: order
+  projects:
+    output: true
+    sort_by: order
   tabs:
     output: true
     sort_by: order
@@ -182,6 +188,20 @@ defaults:
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
       permalink: /posts/:title/
+  - scope:
+      path: "" # An empty string here means all files in the project
+      type: posts_math
+    values:
+      layout: math-post
+      toc: true
+      permalink: /math_posts/:title/  
+  - scope:
+      path: "" # An empty string here means all files in the project
+      type: projects
+    values:
+      layout: projects-post
+      toc: true
+      permalink: /projects/:title/       
   - scope:
       path: _drafts
     values:
