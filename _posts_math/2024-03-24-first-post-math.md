@@ -1,8 +1,8 @@
 ---
 title: First math post
 date: 2024-03-24 12:00:00 -500
-categories: [Maths]
-tags: []
+# categories: [Maths]
+# tags: []
 math: true
 ---
 This is a test math post.

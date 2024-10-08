@@ -1,8 +1,8 @@
 ---
 title: energyBrainer
 date: 2023-03-09 12:00:00 -500
-categories: [Mobile app]
-tags: [ESP8266, Express, React Native, C]
+#categories: [Mobile app]
+#tags: [ESP8266, Express, React Native, C]
 #image: https://raw.githubusercontent.com/Inf3n0s/energyBrainer/refs/heads/main/assets/images/logo.png
 ---
 
