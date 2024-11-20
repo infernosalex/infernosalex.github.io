@@ -23,13 +23,14 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://inf3n0s.github.io/"
+url: "https://infernosalex.github.io/"
+url: "https://scant.ro"
 
 github:
-  username: Inf3n0s # change to your GitHub username
+  username: infernosalex # change to your GitHub username
 
 # twitter:
-#   username: twitter_username # change to your Twitter username
+#   username: infernosalex # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -38,8 +39,8 @@ social:
   email: infernosalex@proton.me # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/Inf3n0s # change to your GitHub homepage
+    - https://github.com/infernosalex # change to your GitHub homepage
+    - https://twitter.com/infernosalex # change to your Twitter homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -188,20 +189,6 @@ defaults:
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
       permalink: /posts/:title/
-  - scope:
-      path: "" # An empty string here means all files in the project
-      type: posts_math
-    values:
-      layout: math-post
-      toc: true
-      permalink: /math_posts/:title/  
-  - scope:
-      path: "" # An empty string here means all files in the project
-      type: projects
-    values:
-      layout: projects-post
-      toc: true
-      permalink: /projects/:title/       
   - scope:
       path: _drafts
     values:

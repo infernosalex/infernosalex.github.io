@@ -1,22 +1,21 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 6
+order: 1
 ---
 
-<h1 align="center">Hi 👋, I'm InfernoSAlex</h1>
-
 # $ whoami >
-- I'm a passionate cybersecurity enthusiast and programmer looking to render the best of my knowledge and skills
-- I’m currently learning **Offensive Security for OSCP**
-- I'm currently publishing CTF writeups and walkthroughs 
-- How to reach me **infernosalex@proton.me**
+- I'm a 1st-year Bachelor’s Degree Computer Science student at the [**Faculty of Mathematics and Computer Science - University of Bucharest**](https://fmi.unibuc.ro/)
+- I'm a passionate cybersecurity enthusiast and programmer looking to apply the best of my knowledge and skills
+- I'm currently learning **Offensive Security for OSCP**
+- I'm currently publishing CTF writeups, walkthroughs and math articles / papers
+- How to reach me: [**infernosalex@proton.me**](mailto:infernosalex@proton.me)
 
 # $ achievements >
-- Achieved the rank of 18 at Unbreakable 2024 CTF competition
-- Achieved the rank of 2nd at OSC Romania CTF competition (12th grade)
+- Achieved 18th place in the Unbreakable 2024 CTF competition
+- Achieved 2nd place in the OSC Romania CTF competition (12th grade)
 - Qualified for Defcamp Finals CTF
-- Qualified for Romanian National Artificial Intelligence Contest
+- Qualified for the Romanian National Artificial Intelligence Contest
 
 
 # Profiles
