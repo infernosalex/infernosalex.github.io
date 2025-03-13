@@ -6,6 +6,8 @@ categories: [CTF Writeups, AlpacaHack, Crypto]
 tags: [Crypto,RSA,Leak,Binary Search,Polynomial]
 image: /assets/img/logos/htb/htb-crypto.png
 math: true
+seo:
+  keywords: [Crypto,RSA,Leak,Binary Search,Polynomial,AlpacaHack,AlpacaHack Round 3,CTF,CTF Writeups] 
 ---
 # qrime - AlpacaHack Round 3 (Crypto)
 

@@ -11,3 +11,367 @@
 @import 'layout/archives';
 @import 'layout/categories';
 @import 'layout/category-tag';
+
+.cardB {
+    width: 330px;
+    height: 60px;
+    background-color: hsl(217, 37%, 16%);
+    border: 1.5px solid hsla(217, 37%, 50%, 0.2);
+    border-radius: 15px;
+    color: rgb(216, 219, 222);
+    padding: 7px;
+    font-family: Source Sans Pro, Poppins;
+  }
+  .cardB * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .name {
+    text-align: left;
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-right: 1em;
+  }
+  
+  .rank {
+    align-self: center;
+    color: rgba(158, 193, 250, 0.8);
+  }
+  
+  .horizontalContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .photo {
+    height: 100%;
+    aspect-ratio: 1/1;
+    background-color: green;
+    border-radius: 10px;
+    background-size: contain;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  
+  .verticalContainer {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    padding-left: 7px;
+  }
+  
+  .details {
+    font-weight: 400;
+    gap: 18px;
+    margin: -0.5em 0;
+  }
+  
+  .hackLink {
+    color: hsl(120, 100%, 35%);
+    font-weight: 400;
+  }
+  
+  .icon1 {
+    color: hsl(217, 37%, 50%);
+  }
+  .icon1::before {
+    content: "🪢";
+  }
+  
+  .icon2 {
+    color: hsl(50, 100%, 50%);
+  }
+  .icon2:before {
+    content: "⭐";
+  }
+  
+  .cardB .country-flag {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    font-size: 0.7em;
+    background-color: rgba(158, 193, 250, 0.2);
+    border-radius: 3px;
+    padding: 1px 3px;
+    font-weight: bold;
+  }
+  
+  .cardB .name a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .cardB .name a:hover {
+    text-decoration: underline;
+  }
+  
+  .cardB .hackLink a {
+    color: hsl(120, 100%, 35%);
+    text-decoration: none;
+  }
+  
+  .cardB .hackLink a:hover {
+    text-decoration: underline;
+  }
+
+/* Common card styles for both platforms */
+.cardCrypto, .cardHTB {
+  width: 330px;
+  height: auto;
+  min-height: 70px;
+  background-color: #0c1221;
+  border-radius: 15px;
+  color: rgb(216, 219, 222);
+  padding: 7px;
+  font-family: Source Sans Pro, Poppins;
+  margin-top: 15px;
+}
+
+/* Specific border colors */
+.cardCrypto {
+  border: 1.5px solid rgba(254, 179, 43, 0.3);
+}
+
+.cardHTB {
+  border: 1.5px solid rgba(57, 255, 20, 0.3);
+}
+
+.cardCrypto *, .cardHTB * {
+  margin: 0;
+  padding: 0;
+}
+
+.cardHTB .photo, .cardCrypto .photo {
+  height: 100%;
+  width: 60px;
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+  background-size: contain;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.cardHTB .photo {
+  background-color: #111a2e;
+}
+
+.cardCrypto .photo {
+  background-color: #111a2e;
+}
+
+.cardCrypto .name {
+  color: #e85154;
+}
+
+.cardCrypto .rank {
+  color: rgba(254, 179, 43, 0.9);
+}
+
+.cardCrypto .hackLink {
+  color: #feb32b;
+}
+
+.cardCrypto .categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 5px 0;
+}
+
+.cardCrypto .category-badge {
+  background-color: rgba(232, 81, 84, 0.15);
+  border-radius: 10px;
+  padding: 2px 6px;
+  font-size: 0.8em;
+}
+
+.profile-note {
+  font-size: 0.8em;
+  color: #888;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.cardCrypto .hackLink a {
+  color: #feb32b;
+  text-decoration: none;
+}
+
+.cardCrypto .hackLink a:hover {
+  text-decoration: underline;
+}
+
+.cardCrypto .country-flag {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  font-size: 0.7em;
+  background-color: rgba(232, 81, 84, 0.2);
+  border-radius: 3px;
+  padding: 1px 3px;
+  font-weight: bold;
+}
+
+.cardCrypto .level-badge {
+  background-color: rgba(254, 179, 43, 0.2);
+  border-radius: 10px;
+  padding: 2px 8px;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #feb32b;
+}
+
+.cardCrypto .solved-info {
+  margin: 2px 0;
+  font-size: 0.9em;
+}
+
+.cardCrypto .solved-info p {
+  color: #e3e3e3;
+}
+
+.cardCrypto .details strong {
+  color: #feb32b;
+  font-weight: 600;
+}
+
+/* Media query for desktop layout */
+@media (min-width: 768px) {
+  .cards-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .cardB, .cardCrypto, .cardHTB {
+    margin-right: 20px;
+  }
+  
+  .cardCrypto, .cardHTB {
+    margin-top: 0;
+  }
+}
+
+.cardHTB .name {
+  color: #9fef00;
+  text-align: left;
+  font-size: 1.4em;
+  font-weight: 500;
+  margin-right: 1em;
+}
+
+.cardHTB .rank-badge {
+  background-color: rgba(159, 239, 0, 0.2);
+  border-radius: 10px;
+  padding: 2px 8px;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #9fef00;
+}
+
+.cardHTB .machine-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 5px 0;
+}
+
+.cardHTB .stat-badge {
+  background-color: rgba(159, 239, 0, 0.15);
+  border-radius: 10px;
+  padding: 2px 6px;
+  font-size: 0.8em;
+}
+
+.cardHTB .hackLink {
+  color: #9fef00;
+  font-weight: 400;
+}
+
+.cardHTB .country-flag {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  font-size: 0.7em;
+  background-color: rgba(159, 239, 0, 0.2);
+  border-radius: 3px;
+  padding: 1px 3px;
+  font-weight: bold;
+}
+
+.cardHTB .name a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.cardHTB .name a:hover {
+  text-decoration: underline;
+}
+
+.cardHTB .hackLink a {
+  color: #9fef00;
+  text-decoration: none;
+}
+
+.cardHTB .hackLink a:hover {
+  text-decoration: underline;
+}
+
+.cardHTB .details  {
+    gap: 10px!important;
+}
+
+.cardHTB .details strong {
+  color: #9fef00;
+  font-weight: 600;
+}
+
+.cardHTB .verticalContainer, .cardCrypto .verticalContainer {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  padding-left: 7px;
+}
+
+.cardHTB .details, .cardCrypto .details {
+  font-weight: 400;
+  gap: 18px;
+  margin: -0.5em 0;
+}
+
+/* Responsive cards container */
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+/* Media query for desktop layout */
+@media (min-width: 768px) {
+  .cards-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .cardB, .cardCrypto, .cardHTB {
+    margin-right: 20px;
+  }
+  
+  .cardCrypto, .cardHTB {
+    margin-top: 0;
+  }
+}

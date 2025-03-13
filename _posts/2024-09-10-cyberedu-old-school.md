@@ -4,7 +4,8 @@ date: 2024-09-10 07:00:00 -500
 categories: [CTF Writeups, CyberEdu, ROCSC, Reverse]
 tags: [reverse,cracking]
 image: /assets/img/logos/cyberedu.png
-
+seo:
+  keywords: [reverse,cracking,Cyberedu,Cyberedu CTF,CTF,CTF Writeups] 
 ---
 # Old School - ROCSC && CyberEDU
 

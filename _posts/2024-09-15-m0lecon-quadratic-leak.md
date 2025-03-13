@@ -5,6 +5,8 @@ categories: [CTF Writeups, m0leCon CTF, Crypto]
 tags: [Crypto,RSA,Leak]
 image: /assets/img/logos/htb/htb-crypto.png
 math: true
+seo:
+  keywords: [Crypto,RSA,Leak,m0leCon CTF,m0leCon CTF 2025 Teaser,CTF,CTF Writeups] 
 ---
 # Quadratic Leak - m0lecon CTF 2025 Teaser
 

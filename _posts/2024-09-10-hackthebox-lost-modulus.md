@@ -5,6 +5,8 @@ categories: [CTF Writeups, Hackthebox, Crypto]
 tags: [Crypto,RSA,Small e]
 image: /assets/img/logos/htb/htb-crypto.png
 math: true
+seo:
+  keywords: [Crypto,RSA,Small e,HackTheBox,HackTheBox Writeups] 
 ---
 # LostModulus - HackTheBox
 

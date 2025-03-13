@@ -5,6 +5,11 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.3"
 gem "jekyll-theme-chirpy", "~> 7.1"
 
+# SEO-related gems
+gem "jekyll-sitemap"  # Generates a sitemap.xml
+gem "jekyll-seo-tag"  # Adds SEO metadata
+gem "jekyll-feed"     # Generates a feed.xml for RSS readers
+
 gem "html-proofer", "~> 5.0", group: :test
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do

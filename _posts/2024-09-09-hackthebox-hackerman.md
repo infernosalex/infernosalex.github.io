@@ -4,6 +4,8 @@ date: 2024-09-09 12:00:00 -500
 categories: [CTF Writeups, Hackthebox, Misc]
 tags: [misc,steganography]
 image: /assets/img/logos/htb/htb-misc.png
+seo:
+  keywords: [misc,steganography,HackTheBox,HackTheBox Writeups] 
 ---
 # Hackerman - HackTheBox
 

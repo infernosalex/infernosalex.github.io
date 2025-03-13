@@ -4,6 +4,8 @@ date: 2024-03-24 12:00:00 -500
 categories: [CTF Writeups, Unbreakable]
 tags: [reverse,mobile,web,forsenics,stegano,osint,crypto]
 image: /assets/img/logos/logo-unbreakable.png
+seo:
+  keywords: [reverse,mobile,web,forsenics,stegano,osint,crypto,Unbreakable,Unbreakable Individual 2024,CTF,CTF Writeups,Cyberedu] 
 ---
 
 # Unbreakable Individual 2024 

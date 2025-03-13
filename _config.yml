@@ -19,18 +19,18 @@ title: Scânteie Alexandru # it will display as the title
 tagline: Future Security engineer, hacker, CTF player 👾  # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Enthusiastic about cybersecurity, I focus on hacking, CTF challenges, and security engineering. Always learning and innovating to stay ahead in the digital world.
+  Security engineer specializing in cybersecurity, ethical hacking, and CTF challenges.
+  Sharing insights on penetration testing, vulnerability research, and security engineering.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://infernosalex.github.io/"
 url: "https://scant.ro"
 
 github:
   username: infernosalex # change to your GitHub username
 
-# twitter:
-#   username: infernosalex # change to your Twitter username
+twitter:
+  username: infernosalex # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -43,7 +43,7 @@ social:
     - https://twitter.com/infernosalex # change to your Twitter homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/alexandru-scanteie/
 
 # Site Verification Settings
 webmaster_verifications:
@@ -61,19 +61,8 @@ webmaster_verifications:
 analytics:
   google:
     id: # fill in your Google Analytics ID
-  goatcounter:
-    id: # fill in your GoatCounter ID
-  umami:
-    id: # fill in your Umami ID
-    domain: # fill in your Umami domain
-  matomo:
-    id: # fill in your Matomo ID
-    domain: # fill in your Matomo domain
-  cloudflare:
-    id: # fill in your Cloudflare Web Analytics token
-  fathom:
-    id: # fill in your Fathom Site ID
-
+  # Other analytics options are available
+  
 # Page views settings
 pageviews:
   provider: # now only supports 'goatcounter'
@@ -103,11 +92,25 @@ avatar: /assets/img/avatar/profile.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+social_preview_image: /assets/img/avatar/profile.png # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
 
+# Site Copyright
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: This post is licensed under :LICENSE_NAME by the author.
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+
+# Display modification dates for your posts
+updated_badge:
+  enable: true
+  timezone: Europe/Bucharest
+
+# The rest of the configuration remains unchanged
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
   provider: # [disqus | utterances | giscus]
@@ -177,6 +180,12 @@ collections:
   tabs:
     output: true
     sort_by: order
+
+# Enable plugins for better SEO
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
 
 defaults:
   - scope:
